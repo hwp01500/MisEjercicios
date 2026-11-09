@@ -4,7 +4,6 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         int r1 = Integer.parseInt(IO.readln("Introduce el radio 1: "));
         int r2 = Integer.parseInt(IO.readln("Introduce el radio 2: "));
-        
         int suma = r1+r2;
         int resta = r1+r2;
 

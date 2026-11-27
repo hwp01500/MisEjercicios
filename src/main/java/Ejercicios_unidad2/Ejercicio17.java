@@ -9,8 +9,8 @@ public class Ejercicio17 {
         int a;
         int p = r.nextInt(1, n + 1);
         int contador = 0;
-        String s = "s";
-        while (s.equalsIgnoreCase("s")) {
+        String s;
+        do {
             contador = 0;
             n = r.nextInt(100000 - 1000 + 1) + 1000;
             p = r.nextInt(1, n + 1);
@@ -26,7 +26,7 @@ public class Ejercicio17 {
             } while (a != p);
             System.out.println("Felicidades, has ganado. te ha tomado " + contador + " intentos");
             s = IO.readln("¿Deseas volver a jugar? (s/n) ");
-        }
+        } while (s.equalsIgnoreCase("s"));
     }
 
 }
